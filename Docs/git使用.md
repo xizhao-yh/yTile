@@ -20,3 +20,9 @@ git config user.name "xizhao"
 
 7.本地git库与github创建连接
 git remote add origin git@github.com:xizhao-yh/yTile.git
+
+
+8.本地文件删除以后如何再次下载
+git checkout ./
+git reset HEAD 回退到未提交操作
+git mv main.cpp Src/ 移动文件
